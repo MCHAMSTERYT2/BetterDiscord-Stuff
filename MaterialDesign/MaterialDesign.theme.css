@@ -1,5 +1,5 @@
 /**
- * @name Material colums
+ * @name Material
  * @version 0.9.9
  * @author TheCommieAxolotl#0001
  * @authorId 538487970408300544
@@ -18,7 +18,6 @@
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css');
 @import url('https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Clients/betterdiscord.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 
 :root {
   --font-primary: Roboto;
@@ -81,9 +80,6 @@
   --brand-experiment-85a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0085 * var(--skin-accent-a, 100)));
   --brand-experiment-90a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.009 * var(--skin-accent-a, 100)));
   --brand-experiment-95a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0095 * var(--skin-accent-a, 100)));
-  --columns: 2;
-  --guildgap: 3;
-  --aligndms: 0;
 }
 
 .theme-dark {
