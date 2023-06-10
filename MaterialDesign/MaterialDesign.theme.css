@@ -1,5 +1,5 @@
 /**
- * @name Material servercolums
+ * @name Material colums
  * @version 0.9.9
  * @author TheCommieAxolotl#0001
  * @authorId 538487970408300544
@@ -12,7 +12,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+sans:wght@100;300;400;500;700&display=swap');
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url('https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css');
@@ -20,10 +20,9 @@
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 
-
 :root {
   --font-primary: Roboto;
-  --font-code: Source Code Pro;
+  --font-code: Comic sans;
   --floating-background-opacity: 100;
   --floating-background-blur: 0px;
   --version: "0.9.9";
@@ -82,22 +81,9 @@
   --brand-experiment-85a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0085 * var(--skin-accent-a, 100)));
   --brand-experiment-90a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.009 * var(--skin-accent-a, 100)));
   --brand-experiment-95a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0095 * var(--skin-accent-a, 100)));
-  --columns: 3;
+  --columns: 2;
   --guildgap: 3;
   --aligndms: 0;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 2px;
-  --rs-large-spacing: 2px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 2px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-phone-visible: block;
 }
 
 .theme-dark {
