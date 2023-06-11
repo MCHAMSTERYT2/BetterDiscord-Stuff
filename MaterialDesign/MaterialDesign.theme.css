@@ -263,8 +263,19 @@ background-color: var(--background-secondary-alt) !important;
     width: 42px;
 }
 
-.tutorialContainer-1pL9QS foreignObject {
-    mask: none;
+.wrapper-2PSQCG > .svg-2ifYOU foreignObject {
+  mask: none;
+}
+
+/* **** This Will Keep The Shape No Matter What **** */
+.wrapper-2PSQCG,
+.icon-3AqZ2e,
+.circleIconButton-1VxDrg {
+  border-radius: 50px;
+}
+
+.childWrapper-1j_1ub {
+  border-radius: 0;
 }
 
 
