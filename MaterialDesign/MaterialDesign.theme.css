@@ -146,14 +146,48 @@
 
 /* Any custom CSS below here */
 
-[data-list-item-id="guildsnav___home"] {
-    content: url("https://cdn.discordapp.com/emojis/1026533090627174460.webp?size=48&name=blobcatcozystars&quality=lossless");
+.pill-2RsI5Q { visibility: hidden; }
+.listItem-3SmSlK:has(.item-2LIpTv) .blobContainer-ikKyFs:not(:hover):not(.selected-3c78Ai) { outline: 3px solid #ffa600; }
+.blobContainer-ikKyFs:not(.selected-3c78Ai):hover {    outline: 3px solid #ffa600; }
+.blobContainer-ikKyFs.selected-3c78Ai {    outline: 3px solid #ffa600; }
+.blobContainer-ikKyFs.selected-3c78Ai:hover { outline: 4px solid #ffa600; }
+.blobContainer-ikKyFs { border-radius: 30px; }
+.blobContainer-ikKyFs.selected-3c78Ai { border-radius: 17px; }
+.blobContainer-ikKyFs.selected-3c78Ai:hover { border-radius: 17px; }
+.blobContainer-ikKyFs:hover { border-radius: 17px; }
+
+
+
+
+
+
+#vc-spotify-player {
+  padding: 0.85rem 0.5rem !important;
+  margin: 7px;
+  margin-top: 8px !important;
+  border-radius: 7px;
+  background-color: var(--background-primary) !important;
+}
+.container-YkUktl {
+    background-image: linear-gradient( var(--background-primary) ,var(--background-primary), var(--background-secondary)) !important;
+}
+
+.container-1zzFcN {
+  background-color: var(--background-primary) !important;
+  padding-bottom: 10px !important;
+  padding: 0.875rem !important;
+}
+.buttonColor-3bP3fX {
+background-color: var(--background-secondary-alt) !important;
+}
+
+.avatar-2e8lTP[src*="343383572805058560"] ~ h3 span[class*="username-h_Y3Us"] {
+    display: inline-flex;
+    white-space: pre;
+    width: 42px;
 }
 
 
-.tutorialContainer-1pL9QS foreignObject {
-    mask: none;
-}
 
 
 .altText-sAs-Ao {
