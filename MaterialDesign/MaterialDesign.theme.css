@@ -146,6 +146,15 @@
 
 /* Any custom CSS below here */
 
+[data-list-item-id="guildsnav___home"] {
+    content: url("https://cdn.discordapp.com/emojis/1026533090627174460.webp?size=48&name=blobcatcozystars&quality=lossless");
+}
+
+
+.tutorialContainer-1pL9QS foreignObject {
+    mask: none;
+}
+
 
 .altText-sAs-Ao {
   margin: .25rem 0 -0.15rem;
