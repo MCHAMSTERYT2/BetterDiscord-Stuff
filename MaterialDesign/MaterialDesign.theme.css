@@ -263,15 +263,8 @@ background-color: var(--background-secondary-alt) !important;
     width: 42px;
 }
 
-.wrapper-2PSQCG > .svg-2ifYOU foreignObject {
-  mask: none;
-}
-
-/* **** This Will Keep The Shape No Matter What **** */
-.wrapper-2PSQCG,
-.icon-3AqZ2e,
-.circleIconButton-1VxDrg {
-  border-radius: 50px;
+.tutorialContainer-1pL9QS foreignObject {
+    mask: none;
 }
 
 .childWrapper-1j_1ub {
@@ -285,40 +278,3 @@ background-color: var(--background-secondary-alt) !important;
 }
 
 
-/* Original code from hadeanMachine and ArjixWasTaken */
-
-#app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
-  background: #ffae002d;
-  border: 2px solid #ffae00;
-}
-
-.icon-2W8DHg {
-  width: 15px;
-  height: 15px;
-}
-
-[aria-label="Channels"] [class^="content"],
-[class^="popout-"] [class^="row-"]
-{
-    border-style: solid;
-    border-width: 2px;  
-    border-color: transparent;
-    background-color: transparent;
-}
-
-[aria-label="Channels"] [class^="content"]:hover,
-[class^="popout-"] [class^="row-"]:hover
-{
-    border-color: #ffa600 !important;
-}
-
-.unread-36eUEm {
-  display: none;
-}
-
-.modeUnread-3Cxepe .icon-2W8DHg,
-#app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ .icon-2W8DHg,
-#app-mount .containerDefault-YUSmu3:hover .content-1gYQeQ .icon-2W8DHg
-{
-  color: #ffae00 !important;
-}
